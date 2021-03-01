@@ -35,7 +35,7 @@ export default class SignUp extends Component {
            }) 
 
         } catch (error) {
-            console.error(error.message);
+            alert(error.message + "Try to use other email");
         }
     }
 
