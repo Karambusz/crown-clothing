@@ -35,8 +35,6 @@ export const MenuItemContainer = styled.div`
       
       @media screen and (max-width: 800px) {
         height: 200px;
-        
-
     }
 `;
 
@@ -59,6 +57,12 @@ export const ContentContainer = styled.div`
     background-color: white;
     opacity: 0.7;
     position: absolute;
+
+    @media screen and (max-width: 800px) {
+      width: 20%;
+      opacity: 1.0;
+    }
+
 `;
 
 export const ContentTitle = styled.h1`
@@ -67,9 +71,15 @@ export const ContentTitle = styled.h1`
     font-size: 22px;
     text-transform: uppercase;
     color: #4a4a4a;
+    @media screen and (max-width: 800px) {
+      font-size: 20px;
+    }
 `;
 
 export const ContentSubtitle = styled.span`
     font-weight: lighter;
     font-size: 16px;
+
+
+
 `;
